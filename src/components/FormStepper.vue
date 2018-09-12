@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import HorizontalStepper from "vue-stepper";
+import HorizontalStepper from "./step-container/HorizontalStepper.vue";
 
 import StepOne from "./steps/StepOne.vue";
 import StepTwo from "./steps/StepTwo.vue";
@@ -31,21 +31,21 @@ export default {
         {
           icon: "mail",
           name: "first",
-          title: "Sample title 1",
+          title: "Sample 1",
           component: StepOne,
           completed: false
         },
         {
           icon: "report_problem",
           name: "second",
-          title: "Sample title 2",
+          title: "Sample 2",
           component: StepTwo,
           completed: false
         },
         {
           icon: "announcement",
           name: "third",
-          title: "Sample title 3",
+          title: "Sample 3",
           component: StepThree,
           completed: false
         }
